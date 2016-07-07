@@ -1,8 +1,11 @@
-# Hexo Official Website
+# Hexo site
 
 [![Build Status](https://travis-ci.org/hexojs/site.svg?branch=master)](https://travis-ci.org/hexojs/site)
 
-The website for Hexo. You can see the generated files at [hexojs/hexojs.github.io](https://github.com/hexojs/hexojs.github.io) repository.
+Hi! guide to setup will be uploaded soon.
+Here is the [link](https://zeroby0.github.io/)
+
+ignore every thing below, btw.
 
 ## Getting started
 
