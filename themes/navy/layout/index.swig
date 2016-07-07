@@ -19,7 +19,7 @@
         <li class="intro-cmd-item">Toute-de-le-fruit!</li>
       </ul>
       <div id="intro-get-started-wrap">
-        <a href="docs/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
+        <a href="blog/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
       </div>
     </div>
   </div>
