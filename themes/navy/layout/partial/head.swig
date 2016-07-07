@@ -31,6 +31,16 @@
   <!-- build:css build/css/navy.css -->
   {{ css('css/navy') }}
   <!-- endbuild -->
+  <!-- Custom addition for contact page -->
+     {% if page.iscontact %}
+       {% if page.iscontact == true %}
+        {{ css('css/contact.css') }}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+       {% endif %}
+     {% endif %}
+  <!-- End of that-->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">

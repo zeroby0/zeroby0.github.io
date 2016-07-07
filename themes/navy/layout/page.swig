@@ -7,10 +7,19 @@
             <div class="inner">
               <header class="article-header">
                 <h1 class="article-title" itemprop="name">{{ page.title }}</h1>
-                <a href="{{ raw_link(page.source) }}" class="article-edit-link" title="{{ __('page.improve') }}"><i class="fa fa-pencil"></i></a>
+                 {% if page.iseditable %}
+                     {% if page.iseditable == true %}
+                         <a href="{{ raw_link(page.source) }}" class="article-edit-link" title="{{ __('page.improve') }}"><i class="fa fa-pencil"></i></a>
+                     {% endif %}
+                 {% endif %}
               </header>
               <div class="article-content" itemprop="articleBody">
                 {{ page_anchor(page.content) }}
+                {% if page.iscontact %}
+                  {% if page.iscontact == true %} 
+                   {{ partial('partial/contact') }}
+                  {% endif %}
+                {% endif %}
               </div>
               <footer class="article-footer">
                 <time class="article-footer-updated" datetime="{{ date_xml(page.updated) }}" itemprop="dateModified">{{ __('page.last_updated', date(page.updated)) }}</time>
