@@ -2,7 +2,7 @@ menu:
   blog: Blog
   news: News
   portfolio: Portfolio
-  search: Search
+
 
 index:
   get_started: Get started
