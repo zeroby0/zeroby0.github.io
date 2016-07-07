@@ -4,6 +4,8 @@ menu:
   portfolio: Portfolio
   contact: Contact
 
+sitewide:
+  command: grep -r -E '$' blog/ | more
 
 index:
   get_started: Get started
