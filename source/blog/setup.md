@@ -1,4 +1,5 @@
 title: Setup
+nosidebar: true
 ---
 Once Hexo is installed, run the following commands to initialise Hexo in the target `<folder>`.
 

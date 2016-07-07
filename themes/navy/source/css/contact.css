@@ -47,13 +47,13 @@
   }
 
   .form:hover{
-    border:1px solid #8BC3A3;
+    border:1px solid #0e83cd;
   }
 
   .form:focus{
     color: white;
     outline: none;
-    border:1px solid #8BC3A3;
+    border:1px solid darken(#0e83cd, 10%);
   }
 
   .textarea{
@@ -93,8 +93,9 @@
     display: block;
     height: auto;
     padding:15px;
-    color:#fff;
-    background:#8BC3A3;
+    color: #fff;
+
+    background: #0e83cd;
     border:none;
     border-radius:3px;
     outline: none;
@@ -108,7 +109,7 @@
   }
 
   .form-btn:hover{
-    background:#111;
+    background: #0a7ac3;
     color: white;
     border:none;
   }
