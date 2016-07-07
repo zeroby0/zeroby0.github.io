@@ -1,6 +1,6 @@
 layout: plugins
-title: Themes
-data: themes
+title: Portfolio
+data: portfolio
 partial: theme
 comments: false
 ---
