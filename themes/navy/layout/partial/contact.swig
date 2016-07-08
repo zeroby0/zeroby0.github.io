@@ -48,7 +48,7 @@
             event.preventDefault();
 
             $.ajax({
-                url: "http://formspree.io/{{ page.email }}",
+                url: "https://formspree.io/{{ page.email }}",
                 method: "POST",
                 data: {
                     name: $('#js-name').val(),
