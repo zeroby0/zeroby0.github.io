@@ -4,7 +4,7 @@ description: "Student by day, Hacker by night"
 author: Aravind Reddy V
 language: en
 timezone: UTC
-url: https://localhost:4000/
+url: https://zeroby0.github.io/
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -19,7 +19,7 @@ per_page: 0
 theme: navy
 deploy:
   type: git
-  repo: git@github.com:zeroby0/zeroby0.github.io.git
+  repo: https://github.com/zeroby0/zeroby0.github.io.git
 
 disqus_shortname: aravindvoggu
 google_analytics: UA-4910098-10
